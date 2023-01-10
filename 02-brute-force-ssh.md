@@ -115,11 +115,13 @@ Anzahl Möglichkeiten:
 Why is the math behind this important?
 
 - characters: 1 / character-set: 0-9 = 10 possible passwords
-- characters: 2 / character-set: 0-9 = 10^2 = 100 possible passwords
-- characters: 3 / character-set: 0-9 = 10^3 = 1.000 possible passwords
-- characters: 4 / character-set: 0-9 = 10^4 = 10.000 possible passwords
-- characters: 5 / character-set: 0-9 = 10^5 = 100.000 possible passwords = 27 Std.
-- characters: 6 / character-set: a-z A-Z 0-9 = 62^6 =
+- characters: 2 / character-set: 0-9 = 10^2 = 100 possible passwords (100 pw attempts / min. = 1 min.)
+- characters: 3 / character-set: 0-9 = 10^3 = 1.000 possible passwords (100 pw attempts / min. = 10 min.)
+- characters: 4 / character-set: 0-9 = 10^4 = 10.000 possible passwords (100 pw attempts / min. = 100 min. ~ 1,5h)
+- characters: 5 / character-set: 0-9 = 10^5 = 100.000 possible passwords (100 pw attempts / min. = 6.000 pw attempts / h = 48.000 / day ~ 2 days)
+- characters: 6 / character-set: 0-9 = 10^6 = 1.000.000 possible passwords (100 pw attempts / min. = 6.000 pw attemtps / h = 48.000 / day ~ 20 days)
+- ...
+- characters: 6 / character-set: a-z A-Z 0-9 = (26+26+10)^6 = 62^6 = 56.800.235.584 possible passwords (100 pw attemps / min. = 6.000 pw attempts / h = 48k / day = 17.520.000 / year ~ 3242 years)
 
 -> <CHARACTER-SET> ^ <NUMBER-OF-CHARACTERS>
 
@@ -128,7 +130,8 @@ Further reading: https://www.scientificamerican.com/article/the-mathematics-of-h
 # Lessons Learned
   
 - Brute force attacks do not scale if the password and the used alphabet have a sufficient size
-- Trying all username/password combinations 
+- Trying all username/password combinations is hard
+- Don't try stupid things before doing the math
   
 # Harden Raspberry Pi
 
