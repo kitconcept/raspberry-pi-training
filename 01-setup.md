@@ -164,5 +164,5 @@ Nmap done: 256 IP addresses (6 hosts up) scanned in 25.45 seconds
 You can now login to the Raspberry Pi via SSH now:
 
 ```
-ssh leo@192.168.0.216
+ssh kitconcept@192.168.0.216
 ```
