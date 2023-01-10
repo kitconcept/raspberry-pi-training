@@ -125,6 +125,11 @@ Why is the math behind this important?
 
 Further reading: https://www.scientificamerican.com/article/the-mathematics-of-hacking-passwords/
 
+# Lessons Learned
+  
+- Brute force attacks do not scale if the password and the used alphabet have a sufficient size
+- Trying all username/password combinations 
+  
 # Harden Raspberry Pi
 
 ## Firewall
