@@ -123,14 +123,18 @@ Why is the math behind this important?
 - ...
 - characters: 6 / character-set: a-z A-Z 0-9 = (26+26+10)^6 = 62^6 = 56.800.235.584 possible passwords (100 pw attemps / min. = 6.000 pw attempts / h = 48k / day = 17.520.000 / year ~ 3242 years)
 
--> <CHARACTER-SET> ^ <NUMBER-OF-CHARACTERS>
+Function to calculate the possible password combinations:
+
+````
+<CHARACTER-SET> ^ <NUMBER-OF-CHARACTERS>
+````
 
 Further reading: https://www.scientificamerican.com/article/the-mathematics-of-hacking-passwords/
 
 # Lessons Learned
   
 - Brute force attacks do not scale if the password and the used alphabet have a sufficient size
-- Trying all username/password combinations is hard
+- Trying all username/password combinations will make the problem harder to solve -> this is why not exposing the information if a username is known is a good thing
 - Don't try stupid things before doing the math
   
 # Harden Raspberry Pi
