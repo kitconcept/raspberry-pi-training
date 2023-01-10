@@ -116,9 +116,9 @@ Why is the math behind this important?
 
 - characters: 1 / character-set: 0-9 = 10 possible passwords
 - characters: 2 / character-set: 0-9 = 10^2 = 100 possible passwords
-- characters: 3 / character-set: 0-9 = 10^3 = 1000 possible passwords
-- characters: 4 / character-set: 0-9 = 100^4 = 10000 possible passwords
-- ...
+- characters: 3 / character-set: 0-9 = 10^3 = 1.000 possible passwords
+- characters: 4 / character-set: 0-9 = 10^4 = 10.000 possible passwords
+- characters: 5 / character-set: 0-9 = 10^5 = 100.000 possible passwords = 27 Std.
 - characters: 6 / character-set: a-z A-Z 0-9 = 62^6 =
 
 -> <CHARACTER-SET> ^ <NUMBER-OF-CHARACTERS>
