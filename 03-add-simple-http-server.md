@@ -19,7 +19,7 @@ You should see the file system of the Raspberry Pi in your webbrowser.
 Create a folder you want to serve:
 
 ````
-mkdir /srv/
+mkdir /srv/www/
 ````
 
 Create an HTML file "index.html" with the following content within the "srv" directory:
@@ -28,6 +28,10 @@ Create an HTML file "index.html" with the following content within the "srv" dir
 <h1>Hello World</h1>
 ````
 
-Safe the file and start the Python webserver in that directory.
+Safe the file and start the Python webserver in that directory:
+
+````
+python3 -m http.server
+````
 
 Go to your browser and you will see a "Hello World" web page.
