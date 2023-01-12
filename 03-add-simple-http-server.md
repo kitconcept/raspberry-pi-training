@@ -19,7 +19,7 @@ You should see the file system of the Raspberry Pi in your webbrowser.
 Create a folder you want to serve:
 
 ````
-mkdir srv
+mkdir /srv/
 ````
 
 Create an HTML file "index.html" with the following content within the "srv" directory:
