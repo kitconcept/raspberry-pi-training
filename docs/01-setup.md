@@ -1,4 +1,4 @@
-# Raspberry Pi Training - Setup and Login via SSH
+# 01 - Setup and Login via SSH
 
 ## Set Up Raspberry Pi
 

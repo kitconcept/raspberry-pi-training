@@ -1,4 +1,4 @@
-# Brute Force Attack Raspberry Pi
+# 02 - Brute Force Attack
 
 ## Ideas
 
@@ -125,18 +125,18 @@ Why is the math behind this important?
 
 Function to calculate the possible password combinations:
 
-````
+```
 <CHARACTER-SET> ^ <NUMBER-OF-CHARACTERS>
-````
+```
 
 Further reading: https://www.scientificamerican.com/article/the-mathematics-of-hacking-passwords/
 
 # Lessons Learned
-  
+
 - Brute force attacks do not scale if the password and the used alphabet have a sufficient size
 - Trying all username/password combinations will make the problem harder to solve -> this is why not exposing the information if a username is known is a good thing
 - Don't try stupid things before doing the math
-  
+
 # Harden Raspberry Pi
 
 ## Firewall
