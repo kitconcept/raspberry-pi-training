@@ -13,6 +13,28 @@ https://gpiozero.readthedocs.io/en/latest/recipes.html
 
 # LEDs an/aus
 
+GPIO:
+
+```
+..
+..
+oo (GPIO 3 / GND) -> white
+..
+oo (GND / GPIO 15) -> red
+..
+oo (GPIO 27 / GND) -> orange
+..
+..
+oo (GPIO 10 / GND) -> green
+..
+..
+..
+..
+..
+..
+..
+```
+
 Python:
 
 ```
@@ -31,9 +53,33 @@ Python:
 >>> green.on()
 ```
 
-# Ampel
+# Ampel (GND/R/G/B)
 
-Ampel (GND/R/G/B):
+GPIO:
+
+```
+..
+..
+..
+..
+..
+..
+..
+..
+..
+..
+..
+..
+..
+..
+..
+o. (GPIO13 -> GREEN)
+o. (GPIO19 -> YELLOW)
+o. (GPIO26 -> RED)
+o. (GND)
+```
+
+Python:
 
 ```
 >>> ampel_red = LED(26)
